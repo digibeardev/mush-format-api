@@ -35,7 +35,7 @@ app.post("/", async (req, res, next) => {
     res.json({
       error: true,
       success: false,
-      message: "Server error.  Formatter didn't run"
+      message: "Server error. Formatter didn't run"
     });
   }
 });
